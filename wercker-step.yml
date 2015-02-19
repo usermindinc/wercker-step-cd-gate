@@ -1,5 +1,5 @@
 name: cd-gate
-version: "0.0.1"
+version: "0.0.2"
 description: Tests whether cd is enabled for application and environment
 keywords:
   - cd

@@ -11,13 +11,14 @@ Checks web service for continuous deployment flags per environment and applicati
 ``` yaml
 build:
   steps:
-    - cd-gate:
-      endpoint: http://bucket.s3.amazonaws.com/cd
-      environment: staging
-      application: website
+    - theazureshadow/cd-gate:
+        endpoint: http://bucket.s3.amazonaws.com/cd
+        environment: production
+        application: website
+
 ```
 
 ## Changelog
 
-### 0.0.1
+### 0.0.2
  - Initial release.
