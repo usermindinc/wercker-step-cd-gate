@@ -1,0 +1,15 @@
+name: cd-gate
+version: "0.0.1"
+description: Tests whether cd is enabled for service and environment
+keywords:
+  - cd
+properties:
+  endpoint:
+    type: string
+    required: true
+  environment:
+    type: string
+    required: true
+  service:
+    type: string
+    required: true
