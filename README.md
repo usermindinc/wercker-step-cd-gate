@@ -1,10 +1,10 @@
-Checks web service for continuous deployment flags per environment and service name.
+Checks web service for continuous deployment flags per environment and application name.
 
 ## Options
 
-* `endpoint` - root url for environment/service http calls
+* `endpoint` - root url for environment/application http calls
 * `environment` - name of environment (e.g. `production`)
-* `service` - name of service
+* `application` - name of application
 
 ## Example
 
@@ -14,7 +14,7 @@ build:
     - cd-gate:
       endpoint: http://bucket.s3.amazonaws.com/cd
       environment: staging
-      service: website
+      application: website
 ```
 
 ## Changelog
